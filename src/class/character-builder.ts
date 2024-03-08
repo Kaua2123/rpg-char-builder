@@ -1,11 +1,11 @@
 import { CharacterBuilderProtocol } from '../interfaces/character-builder-protocol';
 import { CharacterClass } from '../interfaces/character-class';
-import { ArcherStatsStrategy } from './archer-stats-strategy';
-import { AssassinStatsStrategy } from './assassin-stats-strategy';
+import { ArcherStatsStrategy } from './strategies/stats/archer-stats-strategy';
+import { AssassinStatsStrategy } from './strategies/stats/assassin-stats-strategy';
 import { Character } from './character';
-import { MageStatsStrategy } from './mage-stats-strategy';
-import { TankStatsStrategy } from './tank-stats-strategy';
-import { WarriorStatsStrategy } from './warrior-stats-strategy';
+import { MageStatsStrategy } from './strategies/stats/mage-stats-strategy';
+import { TankStatsStrategy } from './strategies/stats/tank-stats-strategy';
+import { WarriorStatsStrategy } from './strategies/stats/warrior-stats-strategy';
 
 export class CharacterBuilder implements CharacterBuilderProtocol {
   createCharacter(name: string, characterClass: CharacterClass): Character {

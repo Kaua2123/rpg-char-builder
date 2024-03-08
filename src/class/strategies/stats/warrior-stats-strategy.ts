@@ -1,4 +1,4 @@
-import { StatsProtocol } from '../interfaces/stats-protocol';
+import { StatsProtocol } from '../../../interfaces/stats-protocol';
 import { StatsStrategy } from './stats-strategy';
 
 // classe guerreiro vem com 5 de força a mais

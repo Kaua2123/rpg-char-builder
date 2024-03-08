@@ -1,4 +1,4 @@
-import { StatsProtocol } from '../interfaces/stats-protocol';
+import { StatsProtocol } from '../../../interfaces/stats-protocol';
 import { StatsStrategy } from './stats-strategy';
 
 export class ArcherStatsStrategy extends StatsStrategy {
