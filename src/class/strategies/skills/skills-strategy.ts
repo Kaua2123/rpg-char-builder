@@ -4,11 +4,11 @@ import { SkillsStrategyProtocol } from '../../../interfaces/skills-strategy-prot
 export class SkillsStrategy extends SkillsStrategyProtocol {
   protected skills: SkillsProtocol = [
     {
-      action1: 'attack',
-      action2: 'defend',
-      action3: 'heal',
-      action4: 'parry',
-      action5: 'run',
+      action1: 'Atacar: Ataca o inimigo alvo',
+      action2: 'Defender: Se defende de um ataque',
+      action3: 'Comer: Come um alimento e recebe buff',
+      action4: 'Parry: Se defende e contra ataca',
+      action5: 'Correr: Foge da batalha',
     },
   ];
 }
